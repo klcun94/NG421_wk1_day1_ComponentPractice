@@ -4,8 +4,7 @@
         <ul class="dropdown-menu message-dropdown">
 
             <!-- <MessagePreview   -->
-            <app-message-preview *ngFor="let message of messages"></app-message-preview>
-            <!-- MessagePreview   -->
+                <app-message-preview *ngFor="let message of messages" [message]="message"></app-message-preview>            <!-- MessagePreview   -->
 
 
             <li class="message-footer">
