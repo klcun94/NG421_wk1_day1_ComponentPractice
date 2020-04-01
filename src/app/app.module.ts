@@ -10,6 +10,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { CommentsComponent } from './comments/comments.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { OrdersComponent } from './orders/orders.component';
+import { TicketsComponent } from './tickets/tickets.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { OrdersComponent } from './orders/orders.component';
     SideNavComponent,
     CommentsComponent,
     TasksComponent,
-    OrdersComponent
+    OrdersComponent,
+    TicketsComponent
   ],
   imports: [
     BrowserModule
