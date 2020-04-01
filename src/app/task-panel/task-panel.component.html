@@ -5,8 +5,7 @@
     <div class="panel-body">
         <div class="list-group">
             <!-- TaskItem>    -->
-            <app-task-item *ngFor="let task of tasks"></app-task-item>
-            <!-- /TaskItem>    -->  
+            <app-task-item *ngFor="let task of tasks" [taskItem]="task"></app-task-item>            <!-- /TaskItem>    -->  
         </div>
         <div class="text-right">
             <a href="#">View All Activity <i class="fa fa-arrow-circle-right"></i></a>
