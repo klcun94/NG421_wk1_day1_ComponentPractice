@@ -1,19 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { DateTimeComponent } from './date-time.component';
 
-describe('DateTimeComponent', () => {
-  let component: DateTimeComponent;
-  let fixture: ComponentFixture<DateTimeComponent>;
+import { MessagePreviewComponent } from './message-preview.component';
+
+describe('MessagePreviewComponent', () => {
+  let component: MessagePreviewComponent;
+  let fixture: ComponentFixture<MessagePreviewComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DateTimeComponent ]
+      declarations: [ MessagePreviewComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DateTimeComponent);
+    fixture = TestBed.createComponent(MessagePreviewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
