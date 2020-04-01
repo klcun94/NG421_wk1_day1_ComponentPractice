@@ -17,7 +17,7 @@
                     <tr *ngFor="let order of orders">
                         <td>{{order.id}}</td>
                         <td>{{order.orderDate}}</td>
-                        <td>{{order.orderTime}}/td>
+                        <td>{{order.orderTime}}<td>
                         <td *ngIf='order.amount>1000' style='color: red;'>${{order.amount}}</td>
                         <td *ngIf='order.amount<1000'>${{order.amount}}</td>
                     </tr>
