@@ -15,6 +15,7 @@ import { AreaChartComponent } from './area-chart/area-chart.component';
 import { DonutChartComponent } from './donut-chart/donut-chart.component';
 import { TaskPanelComponent } from './task-panel/task-panel.component';
 import { TransactionsPanelComponent } from './transactions-panel/transactions-panel.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TransactionsPanelComponent } from './transactions-panel/transactions-pa
     AreaChartComponent,
     DonutChartComponent,
     TaskPanelComponent,
-    TransactionsPanelComponent
+    TransactionsPanelComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule
