@@ -12,6 +12,7 @@ import { TasksComponent } from './tasks/tasks.component';
 import { OrdersComponent } from './orders/orders.component';
 import { TicketsComponent } from './tickets/tickets.component';
 import { AreaChartComponent } from './area-chart/area-chart.component';
+import { DonutChartComponent } from './donut-chart/donut-chart.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AreaChartComponent } from './area-chart/area-chart.component';
     TasksComponent,
     OrdersComponent,
     TicketsComponent,
-    AreaChartComponent
+    AreaChartComponent,
+    DonutChartComponent
   ],
   imports: [
     BrowserModule
