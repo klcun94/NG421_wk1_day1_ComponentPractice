@@ -14,11 +14,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>3326</td>
-                        <td>10/21/2013</td>
-                        <td>3:29 PM</td>
-                        <td>$321.33</td>
+                    <tr *ngFor="let order of orders">
+                        <td>{{order.id}}</td>
+                        <td>{{order.orderDate}}</td>
+                        <td>{{order.orderTime}}/td>
+                        <td>${{order.amount}}</td>
                     </tr>
                 </tbody>
             </table>
