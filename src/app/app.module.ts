@@ -9,6 +9,7 @@ import { TopNavComponent } from './top-nav/top-nav.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { CommentsComponent } from './comments/comments.component';
 import { TasksComponent } from './tasks/tasks.component';
+import { OrdersComponent } from './orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TasksComponent } from './tasks/tasks.component';
     TopNavComponent,
     SideNavComponent,
     CommentsComponent,
-    TasksComponent
+    TasksComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule
